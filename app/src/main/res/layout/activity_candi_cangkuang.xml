@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uusbotak.pariwisata.candi_cangkuang">
+    <ImageView
+        android:id="@+id/candi_cangkuang"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/candicangkuang"
+        android:layout_marginBottom="0dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Wisata Candi Cangkuang yang terdapat di Kampung Pulo, wilayah Cangkuang, Kecamatan Leles, Garut, Jawa Barat. "
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="349dp"
+        tools:layout_editor_absoluteX="0dp" />
+</RelativeLayout>

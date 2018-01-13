@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uusbotak.pariwisata.sanghyang_taraje">
+
+    <ImageView
+        android:id="@+id/Sanghiyang_taraje"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/curug"
+        android:layout_marginBottom="0dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Curug Sanghyang Taraje
+Curug Sangyang Taraje bisa ditempuh dari pusat kota Garut sekitaran 3 jam perjalanan. Bila membawa kendaraan pribadi, rute perjalanannya yaitu Garut – Bayongbong – Cisurupan – Papanggungan (komplek KOSTRAD 303 Cibuluh), ke arah Bungbulang sampai di Kecamatan Pamulihan, tetapi bila memakai kendaraan umum dapat naik elf jurusan Garut – Bungbulang atau Bandung – Bungbulang, berhenti di Pamulihan."
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="367dp"
+        tools:layout_editor_absoluteX="0dp" />
+</RelativeLayout>

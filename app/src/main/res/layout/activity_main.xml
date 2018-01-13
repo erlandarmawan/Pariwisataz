@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/maina"
+    android:background="@drawable/garut"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uusbotak.pariwisata.MainActivity">
+
+    <Button
+        android:id="@+id/pariwisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="Pariwisata"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:text="EXIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnExit"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/pariwisata"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>

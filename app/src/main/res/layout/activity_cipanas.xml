@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uusbotak.pariwisata.cipanas">
+    <ImageView
+        android:id="@+id/cipanas"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/cipanas"
+        android:layout_marginBottom="0dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Wisata Cipanas
+Lokasi Cipanas Garut strategis sekali. Dari pusat kota Garut hanya sekitar 6 KM saja. Sedangkan dari kota Bandung, letaknya kurang lebih 50 KM. Dari jalan utama Bandung – Garut tidak jauh dari gerbang masuk kota Garut, nanti anda akan menemukan pertigaan jalan besar di sebelah kanan. Letak pertigaan ini tidak jauh dari rumah makan cibiuk. Anda Tinggal ikuti saja jalan ini dan nanti akan langsung masuk ke kawasan Cipanas."
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="349dp"
+        tools:layout_editor_absoluteX="0dp" />
+</RelativeLayout>
